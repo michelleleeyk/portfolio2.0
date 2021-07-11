@@ -1,0 +1,378 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+*{
+    /* color: #6eb2bd;   */
+    color: black;
+    font-family: monospace !important;
+
+    /* background-color: #fffcf6; */
+    /* background-color: #fefffc; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.mono-font{font-family: 'Roboto Mono', monospace;}
+.bold{font-weight: 700;}
+.light-color{color: #bbdee4;}
+/* .contrast-color{color: #fd5b06;} */
+.contrast-color{color: blue;}
+
+/* HEADER */
+header{
+    margin: 5% 10%;
+}
+
+h1{
+    font-size: 9rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.new-line{
+    display: block;
+}
+
+.nav{
+    font-size: 1.6rem;
+    text-align: center;
+    color: blue !important;
+}
+
+.light-blue-line{
+    /* color: #bbdee4; */
+    color: #0000ff;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 30px;
+}
+
+#contact_text{
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.contact-logo{
+    width: 25px;
+    opacity: 1;
+}
+
+.contact-logo:hover{
+    opacity: 0.5;
+}
+
+/* BODY */
+h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.body-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+/* .item{
+    flex-basis: 300px;
+} */
+
+/* ABOUT */
+.about{
+    /* border-top: 2px solid #0000ff;
+    border-bottom: 2px solid #0000ff; */
+    margin: 0% 15%;
+    padding-bottom: 5%;
+
+}
+
+.about img{
+    width: 60%;
+    min-width:150px;
+
+}
+
+
+.intro{
+    /* padding: 0;
+    margin: 0; */
+}
+
+.intro p{
+    text-align: justify;
+
+    /* font-weight: 300; */
+}
+
+.skills{
+    display: inline-flex;
+    /* width: 600px; */
+}
+
+.skill{
+    justify-content: space-between;
+}
+
+/* WORK */
+.work{
+    /* border-bottom: 2px solid #bbdee4; */
+    /* margin: 5% 0; */
+    /* padding-bottom: 5%; */
+}
+
+
+.work h2{
+    line-height: 0.2;
+    margin: 0% 15%;
+    padding: 5% 0;
+}
+
+/* FOOTER */ 
+footer{
+
+    font-size: 12px !important;
+    /* margin: 0% 15%; */
+    text-align: center;
+}
+
+footer p{
+    font-size: 12px !important;
+    font-weight: 800 !important;
+    text-align: center;
+    color: blue;
+}
+
+#no-bold{
+    font-weight: 400;
+    color: blue;
+}
+
+
+/* RESPONSIVE DESIGN */
+/* For when screen is < half */
+@media screen and (max-width:1000px){
+    html{
+        width: 100%;
+        max-width:100%;
+        margin: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        /* overflow-x: hidden; */
+    }
+
+    .contact-line{
+        visibility: hidden ;
+    }
+
+    .work h2{
+        line-height: 0.2;
+        margin: 0%;
+        padding: 5% 0;
+    }
+
+    .contact{
+        position: static;
+        display: inline;
+    }
+
+    header{
+        text-align: center;
+        margin: 0;
+    }
+
+    h1{
+        font-size: 3rem;
+        line-height: 0.8;
+        text-align: center;
+    }
+
+    p{
+        font-size:1rem;
+        display: inline-block;
+    }
+
+    .intro{
+        max-width: 100%;
+    }
+
+    .skills{
+        max-width: 100%;
+    }
+
+
+    .new-line{
+        display: inline;
+    }
+
+    .nav{
+        /* line-height: 0.5; */
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    .contact-logo{
+        padding: 5px;
+    }
+
+    #rotate_ninety{
+        width: 20px;
+        display: inline-block;
+        transform: rotate(90deg);
+    }
+
+    section{
+        /* margin: 30px 100px;
+        padding: 30px 60px 60px 60px; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .body-items{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+    h2{
+        font-size: 2rem;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+    }
+
+    .about{
+ 
+        margin: 0% auto;
+        padding-bottom: 5%;
+    }
+
+    .about img{
+        min-width: 300px;
+
+    }
+
+    h4{
+        font-size: 1rem;
+    }
+
+    .item{
+        margin:0;
+        padding:0;
+    }
+
+    footer p{
+        font-size: 0.8rem;
+    }
+}
+
+/* MOBILE SPECIFIC RESPONSIVE DESIGN*/
+@media screen and (max-width:500px){
+.skills{
+    display: block;
+    }
+.skill{
+    display: block;
+    }
+}
+
+/* ANIMATIONS*/
+.underline-animation{
+    font-weight: 600;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.underline-animation:after {
+    display: block;
+    content: "";
+    border-bottom: solid 0.1em blue;  
+    transform: scaleX(0);  
+    transition: transform 0.5s ease-in-out;
+    transform-origin:100% 50%
+}
+
+.underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin:0 50%;
+}
+
+/* PRODUCT DESIGN GALLERY PAGE */
+/* .subpage-header{
+    border-bottom: 2px solid #bbdee4;
+}
+
+.subpage-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 0.5;
+    text-align: center;
+    width: 100%;
+}
+
+.subpage-nav{
+    font-size: 1.3rem;
+    line-height: 0.3;
+    text-align: center;
+}
+
+.subpage-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.subpage-contact-logo{
+    opacity: 0.5;
+    padding: 5px;
+    width: 25px;
+}
+
+.subpage-contact-logo:hover{
+    opacity: 1;
+}
+
+.prodes-project{
+    margin: auto;
+    padding: 5px;
+    width: 70%;
+}
+
+.project-name{
+    font-size: 1.2rem;
+    line-height: 0.1;
+}
+
+.project-desc{
+    line-height: 0.1;
+}
+
+.gallery-cell{
+    max-width: 100%;
+    min-width: 50%;
+}

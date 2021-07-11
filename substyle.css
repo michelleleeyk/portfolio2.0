@@ -1,0 +1,79 @@
+/* STYLE FOR PRODUCT DESIGN GALLERY - KAIA PILL PACK */
+.no-underline{
+    text-decoration: none;
+}
+
+.align-right{
+    float: right;
+    font-style: italic ;
+    color: #bbdee4;
+}
+
+.subpage-header{
+    border-bottom: 2px solid #bbdee4;
+}
+
+.subpage-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 0.5;
+    text-align: center;
+    width: 100%;
+}
+
+.subpage-nav{
+    font-size: 1.3rem;
+    line-height: 0.3;
+    text-align: center;
+}
+
+.subpage-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.subpage-contact-logo{
+    opacity: 0.5;
+    padding: 5px;
+    width: 25px;
+}
+
+.subpage-contact-logo:hover{
+    opacity: 1;
+}
+
+.prodes-project{
+    margin: auto;
+    /* padding: 5px; */
+    width: 70%;
+}
+
+.project-name{
+    font-size: 1.2rem;
+    line-height: 0.1;
+}
+
+.gallery-cell{
+    max-width: 100%;
+    min-width: 50%;
+}
+
+footer{
+    /* font-size: 12px;
+    text-align: center; */
+    border-top: none;
+    padding: 30px 0 10px 0;
+}
+
+/* LAPTOP HALF SCREEN */
+@media screen and (max-width:1000px){
+    .prodes-project{
+        margin: auto;
+        padding: 5px;
+        width: 95%;
+    }
+}

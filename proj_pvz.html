@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<title>Michelle Lee</title>
+<link rel="icon" href="assets/title-icon.png" type="image/icon type">
+<link href="./default.css" rel="stylesheet">
+<link href="./project.css" rel="stylesheet">
+<link href="http://fonts.cdnfonts.com/css/sf-phosphorus" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+
+
+<div class="contact">
+    <!-- <p class="contact-line">|</p> -->
+    <div id="rotate_ninety">
+        <p id="contact_text">contact</p>
+    </div>
+    <a href="mailto:michelleyikay.lee@gmail.com" target="_blank">
+        <img class="contact-logo" src="assets/contact/email2.png" alt="Email icon"></a><br>
+    <a href="https://github.com/michelleleeyk" target="_blank">
+        <img class="contact-logo" src="assets/contact/github2.png" alt="Github icon"></a><br>
+    <a href="https://linkedin.com/in/michelleleeyk" target="_blank">
+        <img class="contact-logo" src="assets/contact/linkedin.png" alt="LinkedIn icon"></a>
+    <!-- <p class="contact-line">|</p> -->
+</div>
+
+<body>
+    <section class="key-project-info">
+        <a href="index.html">
+            <p class="underline-animation" id="return_home">
+                < return to home page</p>
+        </a>
+
+        <h2>Plant vs. Zombie, the Machine (Arduino)</h2>
+        <p> A cardboard machine that provides users with a playful interaction. Contains various sensors and actuators,
+            powered using an Arduino board and programmed in C. This project was completed in a month for my 2nd
+            year module, Gizmo: Physical Computing.</p>
+        <div class="container">
+            <p class="project-info">Skills<span class="info-description">Arduino, Electronics, C</span></p>
+            <p class="project-info">Project Type<span class="info-description">University - individual</span></p>
+            <a href="https://github.com/michelleleeyk/plant-vs-zombie-arduino" target="_blank"
+                class="underline-animation">
+                <p id="project-link" class="project-info">View code on ><span class="info-description">GitHub</span></p>
+            </a>
+        </div>
+    </section>
+
+
+    <img src="assets/pro_pvz/hero_image.jpg">
+    <h3>Project Brief</h3>
+    <p>To create a playful cardboard machine that is inspired by a childhood favorite computer game, Plants vs. Zombies,
+        thereby providing users with a nostalgic interaction. It should integrate machine elements (made of
+        cardboard) with sensors and actuators that are connected to an Arduino board. <br><br>
+        Due to Covid-19, students at Imperial were not able to use the machinery in the workshop, therefore cardboard
+        was used as the main material of this project.
+    </p>
+
+    <div>
+        <h3>Process</h3>
+        <ol>
+            <li><span class="emphasise">Ideation</span><br>Devise general flow of game, identify all possible scenarios
+                and list out all actions that the game should carry out.</li>
+            <li><span class="emphasise">Concept development</span><br>Dive deeper into each game action and convert them
+                into detailed, actionable steps.</li>
+            <li><span class="emphasise">Code & test independent functions</span><br>Ensure that all game actions run
+                correctly and smoothly.</li>
+            <li><span class="emphasise">Low Fidelity Prototyping</span><br>Build prototypes of mechanisms and other
+                moving parts using cardboard.</li>
+            <li><span class="emphasise">Combine and test code</span></li>
+            <li><span class="emphasise">Build final cardboard model</span></li>
+            <li><span class="emphasise">Integrate electronic components into cardboard model</span></li>
+        </ol>
+        <p>Steps 3 & 4 were an iterative process.</p>
+
+        <div class="container">
+            <div id="flowchart">
+                <h3>Flow Chart</h3>
+                <img src="assets/pro_pvz/flowchart.png">
+            </div>
+
+            <div id="key_actions">
+                <h3>Key Actions</h3>
+                <p><span class="emphasise">Zombie starts invading</span><br>The zombie is fixed onto a conveyor belt
+                    which is powered by a DC motor.</p>
+
+                <p><span class="emphasise">Pea shooter aims for and shoots zombie</span><br>The pea shooter is fixed
+                    onto a servo motor, which rotates back and forth along the vertical axis, between 0-90degrees. If
+                    the user presses the attack button when the pea shooter is aimed within 35-55degrees, the attack is
+                    successful.</p>
+                <img src="assets/pro_pvz/aim.png">
+                <p><span class="emphasise">Indicating that the pea shooter is shooting a pea</span><br>With each
+                    successful attack, a subsequent LED on the neopixel strip will light up, mimicking a pea moving
+                    through the air.</p>
+                <img src="assets/pro_pvz/neopixel.png">
+                <p><span class="emphasise">Ensuring the zombie returns to the original position</span><br>Once
+                    the reset button is pressed, the DC motor rotates in the opposite
+                    direction as before, while an ultrasonic sensor detects when the zombie is at the original position
+                    and stops the motor. </p>
+            </div>
+        </div>
+        <br><br>
+
+
+
+        <div class="square_gallery">
+            <video width="280" height="280" autoplay muted loop>
+                <source src="assets/pro_pvz/square_assemble.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img class="gallery-item" src="assets/pro_pvz/circuit_diagram.png">
+            <img class="gallery-item" src="assets/pro_pvz/cardboard.JPG">
+
+            <img class="gallery-item" src="assets/pro_pvz/circuit.jpg">
+            <video width="280" height="280" autoplay muted loop>
+                <source src="assets/pro_pvz/code_scroll.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video width="280" height="280" autoplay muted loop>
+                <source src="assets/pro_pvz/square_light.mov" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <video width="280" height="280" autoplay muted loop>
+                <source src="assets/pro_pvz/square_success.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <img class="gallery-item" src="assets/pro_pvz/assembled.JPG">
+            <video width="280" height="280" autoplay muted loop>
+                <source src="assets/pro_pvz/square_zombie.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </div>
+
+    </div>
+</body>
+
+<footer>
+    <p>Designed & Built by <a id="no-bold" class="underline-animation" href="mailto:michelleyikay.lee@gmail.com"
+            target="_blank">Michelle Lee</a></p>
+</footer>

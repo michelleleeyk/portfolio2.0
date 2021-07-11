@@ -1,0 +1,131 @@
+h2{
+    font-size: 1.8rem;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+body{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#return_home{
+    font-family: monospace;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+    font-size: 0.8rem;
+    font-weight: 800;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-family: monospace;
+    font-weight: 800;
+    color: blue;
+}
+
+p{
+    font-size:0.9rem;
+    text-align: justify;
+}
+
+li{
+    font-size:0.9rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.project-info{
+    font-family: monospace;
+    font-weight: 800;
+    font-size: 0.85rem;
+    color: blue;
+}
+
+.info-description, .info-description a{
+    color: black;
+    font-family: monospace;
+    font-weight: 200;
+    /* font-family: 'Karla', sans-serif; */
+    display: block;
+    color: blue;
+}
+
+#project-link{
+    border: 5px solid #fffcf6 ;
+    outline: solid 2px blue;
+}
+
+img{
+    width: 100%;
+}
+
+.half_img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    font-family: monospace;
+    left: auto;
+}
+
+.emphasise{
+    font-weight: 800;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.square_gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-item{
+    width: 280px;
+    height: 280px;
+    padding-bottom: 10px;
+}
+
+#flowchart img{
+    width: 70%;
+}
+
+#key_actions{
+    width: 50%;
+}
+
+#key_actions img{
+    width: 250px;
+}
+
+
+
+/* RESPONSIVE DESIGN FOR HALF SCREEN, DESKTOP
+MAKE CONTAINER NON DISPLAY: FLEX */
+/* 
+.container{
+    display: inline;
+}
+
+#key_actions{
+    width: 100%;
+} */
