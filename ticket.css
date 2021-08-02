@@ -1,6 +1,4 @@
 /* WORK: CARDS STYLE */
-*{font-family: "Poppins", sans-serif;}
-
 i {
     opacity: 0;
     font-size: 18px;
@@ -179,64 +177,10 @@ button i {
     background-image: url("./assets/tickets/pvz.png");
 }
 
+.card6 .pic {
+    background-image: url("./assets/tickets/datsci.png");
+}
+
 .card3 button {
     background-color: blue;
 }
-
-
-/*
-NOT IN USE: CARD TITLE
-.card h2 {
-    z-index: 99;
-
-    position: absolute;
-    bottom: 0;
-    right: 130px;
-    font-size: 60px;
-    font-weight: 700;
-    color: #fff;
-} 
-
-h2{
-  pointer-events:none;
-}
-*/
-
-/* 
-NOT IN USE: POP UP SOCIALS
-.social {
-    position: absolute;
-    left: 60px;
-    top: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 180px;
-    height: 64px;
-    border-radius: 80px;
-} 
-
-.social p:nth-of-type(1) {
-    -webkit-transition-delay: 0.4s;
-    transition-delay: 0.4s;
-}
-
-.social p:nth-of-type(2) {
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
-}
-
-.social p:nth-of-type(3) {
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
-}
-
-.social p:nth-of-type(4) {
-    -webkit-transition-delay: 0.1s;
-    transition-delay: 0.1s;
-}  */

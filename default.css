@@ -8,14 +8,13 @@ html{
 *{
     /* color: #6eb2bd;   */
     color: black;
-    font-family: monospace !important;
+    font-family: monospace;
 
     /* background-color: #fffcf6; */
     /* background-color: #fefffc; */
     /* font-family: 'Poppins', sans-serif; */
 }
 
-.mono-font{font-family: 'Roboto Mono', monospace;}
 .bold{font-weight: 700;}
 .light-color{color: #bbdee4;}
 /* .contrast-color{color: #fd5b06;} */
